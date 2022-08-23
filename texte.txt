@@ -1,0 +1,3 @@
+télécharger le plugin "live sass compiler" pour afficher le résultat
+
+Caniuse.com pour verifier si tous les navigateurs supportent une propriété css

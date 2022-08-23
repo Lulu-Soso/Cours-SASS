@@ -1,0 +1,27 @@
+// SETIINGS REGROUPE TOUS LES REGLAGES GENERAUX
+
+@font-face {
+    font-family: "font1";
+    src: url(../fonts/NotoSerifDisplay-VariableFont_wdth\wght.ttf);
+  }
+  
+  /* Déclarer des variables */
+  $font1: "font1", sans-serif;
+  $color1: rgb(255, 112, 136);
+  $color2: rgb(255, 211, 129);
+  $color3: rgb(22, 22, 22);
+  
+  // MIXINS
+  @mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    background: $color2;
+    font-family: $font1;
+  }
+  
+  
+  
